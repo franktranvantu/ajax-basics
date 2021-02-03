@@ -1,8 +1,0 @@
-<!--Add an <artist> tag inside the song and provide the name of the musician or musical group.-->
-<?xml version="1.0" encoding="UTF-8"?>
-<songs>
-  <song>
-    <title>You are not alone</title>
-    <artist>Micheal Jackson</artist>
-  </song>
-</songs>
