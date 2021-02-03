@@ -1,0 +1,5 @@
+<!--Add a song title by inserting a <title> tag inside the <song> tag. Put the name of any song you'd like inside it.-->
+<?xml version="1.0" encoding="UTF-8"?>
+<songs>
+  <song></song>
+</songs>

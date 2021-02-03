@@ -1,0 +1,8 @@
+<!--Add 3 more songs to this XML document. Include a title and artist for each song.-->
+<?xml version="1.0" encoding="UTF-8"?>
+<songs>
+  <song>
+    <title>You are not alone</title>
+    <artist>Micheal Jackson</artist>
+  </song>
+</songs>
