@@ -1,3 +1,9 @@
-JSON is transmitted over the web as plain text. 
+In this section, we'll continue with our intranet project. 
 
-To make it useful for a JavaScript program, you need to parse it, or convert it from a string to JavaScript.
+Now that we have a JSON response from the server and parsed it, we need to turn it into HTML and add it to the web page.
+
+Processing JSON data:
+1. Create a new HTML list item
+2. Check the "inoffice" property
+3. Get the value for the "name" property, insert it inside the `<li>` tag
+4. Close the `<li>` tag
