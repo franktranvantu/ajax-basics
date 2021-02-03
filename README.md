@@ -1,10 +1,28 @@
-AJAX is an important front-end web technology that lets JavaScript communicate with a web server. 
+Program your first AJAX request using JavaScript. 
 
-It lets you load new content without leaving the current page, creating a better, faster experience for your web site's visitors. 
+You'll use AJAX to load HTML into a div tag on a web page.
 
-In this course, you'll learn how AJAX works and how you can use JavaScript to communicate with a web server. 
+1. Create an XMLHttpRequest object
 
-We'll use plain JavaScript to create AJAX requests and use the response to dynamically update your web pages. 
+    ```
+    var xhr = new XMLHttpRequest();
+   ```
+2. Create a callback function
 
-Along the way, you'll build mini-projects to reinforce your learning.
-    
+    ```
+   xhr.onreadystatechange = function () {
+     if (xhr.readyState === 4) {
+       document.getElementById('ajax').innerHTML = xhr.responseText;
+     }
+   };
+   ```
+3. Open a request
+
+    ```
+   xhr.open('GET', 'sidebar.html');
+   ```
+4. Send the request
+
+    ```
+   xhr.send();
+   ```
