@@ -1,0 +1,7 @@
+//This object represents one song. Add a "title" property to this object.
+//Set the property's value to any song name you want.
+[
+  {
+    "title": "You are not alone"
+  }
+]

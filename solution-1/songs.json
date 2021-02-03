@@ -1,0 +1,3 @@
+//In this challenge, you'll create a JSON file containing a string that's formatted as an array of JavaScript objects.
+//The file will contain an array of songs, each with a song title and artist. Start by creating an empty array.
+[]

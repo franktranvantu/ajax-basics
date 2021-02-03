@@ -1,0 +1,4 @@
+//Inside the array, add an empty JavaScript object. This will hold our song.
+[
+  {}
+]
